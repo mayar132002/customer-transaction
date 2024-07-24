@@ -1,0 +1,27 @@
+
+
+
+
+
+.custom-header {
+    background-color: #3D405B;
+    color: white;
+  }
+
+  .container {
+    height: 400px; /* Set your desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+
+  .table-striped>tbody>tr:nth-of-type(odd)>* {
+   background-color: #3D405B ;
+    color: #fff;
+}
+
+.table-striped-columns>:not(caption)>tr>:nth-child(2n) {
+    background-color: #3D405B ;
+    color: #000;
+}
+
+
+
